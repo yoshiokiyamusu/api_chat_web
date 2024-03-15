@@ -1,0 +1,36 @@
+cd ericroby
+conda activate fastapi-rest
+uvicorn main:app --reload
+
+
+#package to install (always install in virtual environment)
+pip install chromadb beautifulsoup4 langchain langchain-openai cryptography pymysql sqlalchemy fastapi uvicorn
+
+
+#To upgrade packages
+pip install openai==0.28 (para que pueda correr generate_llmanswer_sin_URLSource())
+pip install --upgrade openai (para que pueda correr get_conversational_rag_chain())
+
+# para crear el archivo requirement txt
+conda activate fastapi-rest
+pip install pipreqs
+pipreqs
+
+(no se instalaron)
+pip install chromadb beautifulsoup4  pymysql  
+
+# para pasar a requirement algun package q no haya sido creado
+# jalar toda la lista de package instalados
+pip freeze 
+
+
+#----- Guardar en Github -------------------#
+git remote -v
+git status
+git add .
+git commit -m "initial push"
+git push -u repo_api_web_1ai master
+
+# crear el repositorio ----------------#
+git init
+git remote add repo_api_web_1ai https://github.com/yoshiokiyamusu/api_chat_web.git
