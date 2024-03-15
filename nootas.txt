@@ -3,6 +3,8 @@ conda activate fastapi-rest
 uvicorn main:app --reload
 
 
+
+
 #package to install (always install in virtual environment)
 pip install chromadb beautifulsoup4 langchain langchain-openai cryptography pymysql sqlalchemy fastapi uvicorn
 
@@ -41,3 +43,11 @@ git remote add repo_api_web_1ai https://github.com/yoshiokiyamusu/api_chat_web.g
 
 # -- URL -- - -- 
 https://api-chat-web-2.onrender.com/chatbot/13
+
+
+
+trouble
+
+https://docs.trychroma.com/troubleshooting#sqlite
+
+RuntimeError: Your system has an unsupported version of sqlite3. Chroma requires sqlite3 >= 3.35.0.
