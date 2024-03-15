@@ -34,3 +34,10 @@ git push -u repo_api_web_1ai master
 # crear el repositorio ----------------#
 git init
 git remote add repo_api_web_1ai https://github.com/yoshiokiyamusu/api_chat_web.git
+
+# Render------#
+• Start Command : uvicorn main:app --host 0.0.0.0 --port 8000
+
+
+# -- URL -- - -- 
+https://api-chat-web-2.onrender.com/chatbot/13

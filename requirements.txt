@@ -12,6 +12,7 @@ SQLAlchemy==2.0.25
 chromadb==0.4.22
 beautifulsoup4==4.12.3
 PyMySQL==1.1.0
+sqlite3>=3.35.0.
 
 
  
